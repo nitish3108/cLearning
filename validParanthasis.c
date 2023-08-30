@@ -29,7 +29,7 @@ bool isValid(char * s){
 int main()
 {
     char s[] = "({}[])";
-    printf("%d",isValid(s));
+    printf("%d\n",isValid(s));
     return 0;
 }
 
